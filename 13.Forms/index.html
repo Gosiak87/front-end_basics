@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+  <form>
+    <label for="user">Your Name:</label></br>
+        <input type="text" id="user" name="name" placeholder="Your name"><br>
+    <label for="email">Your E-mail Address:</label><br>
+        <input type="email" id="user_" name="adressemail" placeholder="Your e-mail"><br>
+    <label>Your message:</label><br>
+        <textarea cols="50" rows="10" placeholder="Please describe your question or comment"></textarea><br>
+        <input type="submit" value="Send"><br>
+    </form>
+    <form>
+      <h1>Car rental</h1>
+      <br>
+      <fieldset>
+       <legend>Choose car class</legend>
+          <label>
+            <input type="radio" name="car" value="mini">mini
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="car" value="economy">economy
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="car" value="compact">compact
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="car" value="suv">SUV
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="car" value="van">VAN
+          </label>
+          <br>
+      </fieldset>
+      <fieldset>
+       <legend>Choose optional equipment</legend>
+          <label>
+            <input type="checkbox"name="type" value="child seat">child seat<br>
+          </label>
+          <label>
+            <input type="checkbox"name="type" value="gps" checked>GPS<br>
+          </label>
+          <label>
+            <input type="checkbox"name="type" value="dvd">DVD player<br>
+          </label>
+      </fieldset>
+        <label>Rental start date:</label>
+          <input type="date" name="start"><br>
+       <label>Number of days:</label>
+          <input type="datetime" name="days"><br>
+       <label>Your password:</label>
+          <input type="password" name="userpass"><br>
+          <input type="submit" value="Order now!"><br>
+    </form>
+</body>
+</html>

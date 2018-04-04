@@ -1,0 +1,36 @@
+.span1{
+  color:red;
+}
+.span2{
+  color:green;
+}
+.Css{
+  color:red;
+}
+.jest{
+  color:green;
+}
+.wspanialy{
+  color:darkkhaki;
+}
+.div1{
+  background-color:rgba(255,0,255, .25);  <!-- fuksja -->
+}
+.div2{
+  background-color:rgba(0,255,0, .25);  <!-- lime -->
+}
+.div3{
+  color:hsl(0, 100%, 25%);
+}
+.container{
+  background-color: pink;
+  width: 200px;
+}
+.p1{
+  background-color: blue;
+  width: 6.25em;
+}
+.p2{
+  background-color: red;
+  width: 2.5em;
+}

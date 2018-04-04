@@ -1,0 +1,21 @@
+body{
+  background-color: blue;
+}
+
+p.myclass1{
+  color:green;
+}
+p.myclass2{
+  color:red;
+}
+p.kolor{
+  color:brown;
+}
+.block{
+  width:100px;
+  height:50px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: red;
+
+}

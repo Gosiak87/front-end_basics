@@ -1,0 +1,32 @@
+#div1{
+  float:left;
+  width: 100px;
+  height: 100px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+#div2{
+  float:right;
+  width: 100px;
+  height: 100px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+#p1{
+  float:left;
+  clear:both;
+  width:80px;
+  border-width: 2px;
+  border-style: dotted;
+  border-color: red;
+}
+#p2{
+  float:left;
+  clear:none;
+  width:80px;
+  border-width: 2px;
+  border-style: dotted;
+  border-color: red;
+}
